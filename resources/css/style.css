@@ -113,6 +113,12 @@ h1 {
   .nav {
     margin-bottom: 9rem;
   }
+  .nav span {
+      height: 1.5rem;
+      margin-right: 1rem;
+      display: block;
+      float: left;
+    }
   .nav p {
     display: none;
   }
