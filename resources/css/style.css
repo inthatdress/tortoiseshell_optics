@@ -206,25 +206,30 @@ h2 {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width: 100%;
+    margin: 0;
   }
   .admin {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-content: center;
     flex-flow: column wrap;
     text-align: left;
+
     font-size: .77rem;
+
+
   }
   .admin h2 {
-    max-width: 100%;
     width: 100%;
     font-size: 1rem;
     font-style: uppercase;
     text-align: center;
+
   }
   p {
-    margin-bottom: 4rem;
+    margin: 0 2rem 4rem 2rem;
+
   }
 }
 
